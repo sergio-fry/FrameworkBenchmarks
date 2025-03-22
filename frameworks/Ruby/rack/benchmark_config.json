@@ -21,7 +21,8 @@
         "os": "Linux",
         "database_os": "Linux",
         "display_name": "rack-puma-mri-sequel-raw",
-        "notes": ""
+        "notes": "",
+        "tags": ["heavytech"]
       },
       "iodine": {
         "json_url": "/json",
@@ -42,7 +43,8 @@
         "os": "Linux",
         "database_os": "Linux",
         "display_name": "rack-iodine-mri-sequel-raw",
-        "notes": ""
+        "notes": "",
+        "tags": ["heavytech"]
       },
       "unicorn": {
         "json_url": "/json",
@@ -105,7 +107,74 @@
         "os": "Linux",
         "database_os": "Linux",
         "display_name": "rack-puma-jruby-sequel-raw",
-        "notes": ""
+        "notes": "",
+        "tags": ["heavytech"]
+      },
+      "jruby-jdk21": {
+        "json_url": "/json",
+        "plaintext_url": "/plaintext",
+        "db_url": "/db",
+        "query_url": "/queries?queries=",
+        "fortune_url": "/fortunes",
+        "update_url": "/updates?queries=",
+        "port": 8080,
+        "approach": "Realistic",
+        "classification": "Micro",
+        "orm": "raw",
+        "database": "Postgres",
+        "framework": "rack",
+        "language": "Ruby",
+        "platform": "Jruby",
+        "webserver": "Puma",
+        "os": "Linux",
+        "database_os": "Linux",
+        "display_name": "rack-puma-jruby-jdk21-sequel-raw",
+        "notes": "",
+        "tags": ["heavytech"]
+      },
+      "truffle": {
+        "json_url": "/json",
+        "plaintext_url": "/plaintext",
+        "db_url": "/db",
+        "query_url": "/queries?queries=",
+        "fortune_url": "/fortunes",
+        "update_url": "/updates?queries=",
+        "port": 8080,
+        "approach": "Realistic",
+        "classification": "Micro",
+        "orm": "raw",
+        "database": "Postgres",
+        "framework": "rack",
+        "language": "Ruby",
+        "platform": "Truffle",
+        "webserver": "Puma",
+        "os": "Linux",
+        "database_os": "Linux",
+        "display_name": "rack-puma-truffle-sequel-raw",
+        "notes": "",
+        "tags": ["heavytech"]
+      },
+      "truffle-jvm": {
+        "json_url": "/json",
+        "plaintext_url": "/plaintext",
+        "db_url": "/db",
+        "query_url": "/queries?queries=",
+        "fortune_url": "/fortunes",
+        "update_url": "/updates?queries=",
+        "port": 8080,
+        "approach": "Realistic",
+        "classification": "Micro",
+        "orm": "raw",
+        "database": "Postgres",
+        "framework": "rack",
+        "language": "Ruby",
+        "platform": "Truffle",
+        "webserver": "Puma",
+        "os": "Linux",
+        "database_os": "Linux",
+        "display_name": "rack-puma-truffle-sequel-raw",
+        "notes": "",
+        "tags": ["heavytech"]
       }
     }
   ]

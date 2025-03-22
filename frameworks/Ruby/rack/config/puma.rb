@@ -12,7 +12,7 @@ before_fork do
   Sequel::DATABASES.each(&:disconnect)
 end
 
-if RUBY_PLATFORM == 'java'
+if ENV.fetch("RUBY_PLATFORM", RUBY_PLATFORM) == 'java'
   num_threads = 512
   num_workers = 0
 end
